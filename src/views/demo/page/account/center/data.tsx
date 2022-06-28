@@ -96,10 +96,10 @@ export const articleList = (() => {
   const result: any[] = [];
   for (let i = 0; i < 4; i++) {
     result.push({
-      title: 'Vben Admin',
+      title: '北京德眼平台管理系统',
       description: ['Vben', '设计语言', 'Typescript'],
-      content: '基于Vue Next, TypeScript, Ant Design实现的一套完整的企业级后台管理系统。',
-      time: '2020-11-14 11:20',
+      content: '德眼视能平台管理系统。',
+      time: '2022-06-24 11:20',
     });
   }
   return result;
@@ -109,7 +109,7 @@ export const applicationList = (() => {
   const result: any[] = [];
   for (let i = 0; i < 8; i++) {
     result.push({
-      title: 'Vben Admin',
+      title: '北京德眼平台管理系统',
       icon: 'emojione-monotone:letter-a',
       color: '#1890ff',
       active: '100',
@@ -124,8 +124,8 @@ export const projectList = (() => {
   const result: any[] = [];
   for (let i = 0; i < 8; i++) {
     result.push({
-      title: 'Vben Admin',
-      content: '基于Vue Next, TypeScript, Ant Design实现的一套完整的企业级后台管理系统。',
+      title: '北京德眼平台管理系统',
+      content: '德眼视能平台管理系统。',
     });
   }
   return result;

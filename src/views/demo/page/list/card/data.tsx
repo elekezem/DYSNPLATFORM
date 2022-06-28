@@ -2,7 +2,7 @@ export const cardList = (() => {
   const result: any[] = [];
   for (let i = 0; i < 12; i++) {
     result.push({
-      title: 'Vben Admin',
+      title: '北京德眼平台管理系统',
       icon: 'logos:vue',
       color: '#1890ff',
       active: '100',
