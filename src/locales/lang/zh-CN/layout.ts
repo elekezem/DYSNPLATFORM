@@ -1,5 +1,5 @@
 export default {
-  footer: { onlinePreview: '在线预览', onlineDocument: '在线文档' },
+  footer: { '北京德眼科技集团' },
   header: {
     // user dropdown
     dropdownItemDoc: '文档',

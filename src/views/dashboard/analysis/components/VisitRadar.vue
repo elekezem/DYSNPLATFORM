@@ -1,5 +1,5 @@
 <template>
-  <Card title="转化率" :loading="loading">
+  <Card title="筛查项目趋势" :loading="loading">
     <div ref="chartRef" :style="{ width, height }"></div>
   </Card>
 </template>
@@ -31,7 +31,7 @@
       setOptions({
         legend: {
           bottom: 0,
-          data: ['访问', '购买'],
+          data: ['男性', '女性'],
         },
         tooltip: {},
         radar: {
@@ -39,22 +39,22 @@
           splitNumber: 8,
           indicator: [
             {
-              name: '电脑',
+              name: '筛查项目：裸眼视力',
             },
             {
-              name: '充电器',
+              name: '筛查项目：视光仪',
             },
             {
-              name: '耳机',
+              name: '筛查项目：德眼AI筛查机',
             },
             {
-              name: '手机',
+              name: '筛查项目：球镜',
             },
             {
-              name: 'Ipad',
+              name: '筛查项目：柱镜',
             },
             {
-              name: '耳机',
+              name: '筛查项目：眼底病筛查',
             },
           ],
         },
@@ -72,14 +72,14 @@
             data: [
               {
                 value: [90, 50, 86, 40, 50, 20],
-                name: '访问',
+                name: '男性',
                 itemStyle: {
                   color: '#b6a2de',
                 },
               },
               {
                 value: [70, 75, 70, 76, 20, 85],
-                name: '购买',
+                name: '女性',
                 itemStyle: {
                   color: '#5ab1ef',
                 },

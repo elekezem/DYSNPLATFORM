@@ -24,7 +24,7 @@ const roleList = (() => {
     result.push({
       id: index + 1,
       orderNo: `${index + 1}`,
-      roleName: ['超级管理员', '管理员', '文章管理员', '普通用户'][index],
+      roleName: ['超级管理员', '管理员', '设备管理员', '普通用户'][index],
       roleValue: '@first',
       createTime: '@datetime',
       remark: '@cword(10,20)',
@@ -50,7 +50,7 @@ const deptList = (() => {
         for (let j = 0; j < 4; j++) {
           children.push({
             id: `${index}-${j}`,
-            deptName: ['研发部', '市场部', '商务部', '财务部'][j],
+            deptName: ['运维部', '康复部', '医务部', '财务部'][j],
             orderNo: j + 1,
             createTime: '@datetime',
             remark: '@cword(10,20)',
@@ -74,7 +74,7 @@ const menuList = (() => {
       icon: ['ion:layers-outline', 'ion:git-compare-outline', 'ion:tv-outline'][index],
       component: 'LAYOUT',
       type: '0',
-      menuName: ['Dashboard', '权限管理', '功能'][index],
+      menuName: ['Dashboard', '工作人员管理', '功能'][index],
       permission: '',
       orderNo: index + 1,
       createTime: '@datetime',

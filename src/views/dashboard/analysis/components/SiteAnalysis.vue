@@ -24,11 +24,11 @@
   const tabListTitle = [
     {
       key: 'tab1',
-      tab: '流量趋势',
+      tab: '平均筛查测试频次',
     },
     {
       key: 'tab2',
-      tab: '访问量',
+      tab: '累积筛查统计',
     },
   ];
 

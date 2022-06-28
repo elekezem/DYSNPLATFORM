@@ -65,7 +65,7 @@ export default {
     signUpFormTitle: '注册',
     forgetFormTitle: '重置密码',
 
-    signInTitle: '北京德眼科技集团妇幼保健与近视防控信息管理系统',
+    signInTitle: '妇幼保健与近视防控信息管理系统',
     signInDesc: '输入您的登录详细信息开始使用！',
     policy: '我同意相关部门的隐私政策',
     scanSign: `扫码后点击"确认"，即可完成登录`,

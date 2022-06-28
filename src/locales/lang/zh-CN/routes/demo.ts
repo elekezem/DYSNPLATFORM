@@ -1,11 +1,11 @@
 export default {
   charts: {
-    baiduMap: '百度地图',
-    aMap: '高德地图',
-    googleMap: '谷歌地图',
-    charts: '图表',
-    map: '地图',
-    line: '折线图',
+    baiduMap: '筛查设备部署图',
+    aMap: '德眼视能近视防控系统图',
+    googleMap: '教育网联网设备地图',
+    charts: '统计图表',
+    map: '部署概况',
+    line: '近视防控趋势总图',
     pie: '饼图',
   },
   comp: {
@@ -110,10 +110,10 @@ export default {
     tabsForm: '标签页+多级field',
   },
   iframe: {
-    frame: '外部页面',
-    antv: 'antVue文档(内嵌)',
-    doc: '项目文档(内嵌)',
-    docExternal: '项目文档(外链)',
+    frame: '大数据平台',
+    antv: '第五中学(内嵌)',
+    doc: '海嘉中学(内嵌)',
+    docExternal: '第五中学(外链)',
   },
   level: { level: '多级菜单' },
   page: {
@@ -146,17 +146,17 @@ export default {
     listSearch: '搜索列表',
   },
   permission: {
-    permission: '权限管理',
+    permission: '工作人员管理',
 
-    front: '基于前端权限',
-    frontPage: '页面权限',
-    frontBtn: '按钮权限',
-    frontTestA: '权限测试页A',
-    frontTestB: '权限测试页B',
+    front: '员工建档',
+    frontPage: '教育培训登记',
+    frontBtn: '员工体检',
+    frontTestA: '卫生保健人员管理',
+    frontTestB: '员工体检申请审核',
 
-    back: '基于后台权限',
-    backPage: '页面权限',
-    backBtn: '按钮权限',
+    back: '教职工花名册',
+    backPage: '教职工陪伴表',
+    backBtn: '报表',
   },
   setup: {
     page: '引导页',

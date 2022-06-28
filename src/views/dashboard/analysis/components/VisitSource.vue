@@ -1,5 +1,5 @@
 <template>
-  <Card title="访问来源" :loading="loading">
+  <Card title="群体构成比例" :loading="loading">
     <div ref="chartRef" :style="{ width, height }"></div>
   </Card>
 </template>
@@ -38,7 +38,7 @@
         series: [
           {
             color: ['#5ab1ef', '#b6a2de', '#67e0e3', '#2ec7c9'],
-            name: '访问来源',
+            name: '群体构成比例',
             type: 'pie',
             radius: ['40%', '70%'],
             avoidLabelOverlap: false,
@@ -62,10 +62,10 @@
               show: false,
             },
             data: [
-              { value: 1048, name: '搜索引擎' },
-              { value: 735, name: '直接访问' },
-              { value: 580, name: '邮件营销' },
-              { value: 484, name: '联盟广告' },
+              { value: 1048, name: '小学生' },
+              { value: 735, name: '初中生' },
+              { value: 580, name: '幼儿园' },
+              { value: 484, name: '高中生' },
             ],
             animationType: 'scale',
             animationEasing: 'exponentialInOut',
