@@ -11,7 +11,7 @@ const accountList = (() => {
       nickname: '@cname()',
       role: '@first',
       createTime: '@datetime',
-      remark: '@cword(10,20)',
+      remark: '无',
       'status|1': ['0', '1'],
     });
   }
@@ -27,7 +27,7 @@ const roleList = (() => {
       roleName: ['超级管理员', '管理员', '设备管理员', '普通用户'][index],
       roleValue: '@first',
       createTime: '@datetime',
-      remark: '@cword(10,20)',
+      remark: '无',
       menu: [['0', '1', '2'], ['0', '1'], ['0', '2'], ['2']][index],
       'status|1': ['0', '1'],
     });
@@ -43,7 +43,7 @@ const deptList = (() => {
       deptName: ['华东分部', '华南分部', '西北分部'][index],
       orderNo: index + 1,
       createTime: '@datetime',
-      remark: '@cword(10,20)',
+      remark: '无',
       'status|1': ['0', '0', '1'],
       children: (() => {
         const children: any[] = [];
@@ -53,7 +53,7 @@ const deptList = (() => {
             deptName: ['运维部', '康复部', '医务部', '财务部'][j],
             orderNo: j + 1,
             createTime: '@datetime',
-            remark: '@cword(10,20)',
+            remark: '无',
             'status|1': ['0', '1'],
             parentDept: `${index}`,
             children: undefined,

@@ -95,14 +95,14 @@ const levelRoute = {
       path: 'menu1',
       name: 'Menu1Demo',
       meta: {
-        title: 'Menu1',
+        title: '班级消毒',
       },
       children: [
         {
           path: 'menu1-1',
           name: 'Menu11Demo',
           meta: {
-            title: 'Menu1-1',
+            title: '卫生保健情况工作自查',
           },
           children: [
             {
@@ -110,7 +110,7 @@ const levelRoute = {
               name: 'Menu111Demo',
               component: '/demo/level/Menu111',
               meta: {
-                title: 'Menu111',
+                title: '保健室物品登记',
               },
             },
           ],
@@ -120,7 +120,7 @@ const levelRoute = {
           name: 'Menu12Demo',
           component: '/demo/level/Menu12',
           meta: {
-            title: 'Menu1-2',
+            title: '卫生检查表',
           },
         },
       ],

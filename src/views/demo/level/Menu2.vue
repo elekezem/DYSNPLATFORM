@@ -1,6 +1,6 @@
 <template>
   <div class="p-5">
-    多层级缓存-页面2
+    卫生与消毒管理-页面2
     <br />
     <Input />
   </div>

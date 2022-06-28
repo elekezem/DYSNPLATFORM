@@ -3,8 +3,7 @@
     <template #headerContent>
       <div class="flex justify-between items-center">
         <span class="flex-1">
-          <a :href="GITHUB_URL" target="_blank">{{ name }}</a>
-          是有北京德眼科技集团版权所有的基于人工智能与大数据的信息系统管理平台
+          该项目平台是有北京德眼科技集团版权所有的基于人工智能与大数据的信息系统管理平台
         </span>
       </div>
     </template>

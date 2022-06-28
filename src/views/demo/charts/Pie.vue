@@ -38,7 +38,7 @@
           backgroundColor: '#0f375f',
           title: [
             {
-              text: '各渠道投诉占比',
+              text: '常见传染病占比',
               left: '2%',
               top: '1%',
               textStyle: {
@@ -47,7 +47,7 @@
               },
             },
             {
-              text: '投诉原因TOP10',
+              text: '妇幼保健及常见病发病原因排名',
               left: '40%',
               top: '1%',
               textStyle: {
@@ -56,7 +56,7 @@
               },
             },
             {
-              text: '各级别投诉占比',
+              text: '传染病程度占比',
               left: '2%',
               top: '50%',
               textStyle: {
@@ -91,15 +91,15 @@
           ],
           series: [
             {
-              name: '各渠道投诉占比',
+              name: '常见传染病占比',
               type: 'pie',
               radius: '30%',
               center: ['22%', '25%'],
               data: [
-                { value: 335, name: '客服电话' },
-                { value: 310, name: '奥迪官网' },
-                { value: 234, name: '媒体曝光' },
-                { value: 135, name: '质检总局' },
+                { value: 335, name: 'A' },
+                { value: 310, name: 'B' },
+                { value: 234, name: 'C' },
+                { value: 135, name: 'D' },
                 { value: 105, name: '其他' },
               ],
               labelLine: { show: false },
@@ -110,7 +110,7 @@
               },
             },
             {
-              name: '各级别投诉占比',
+              name: '传染病程度占比',
               type: 'pie',
               radius: '30%',
               center: ['22%', '75%'],
@@ -128,7 +128,7 @@
               },
             },
             {
-              name: '投诉原因TOP10',
+              name: '妇幼保健及常见病发病原因排名',
               type: 'bar',
               xAxisIndex: 0,
               yAxisIndex: 0,

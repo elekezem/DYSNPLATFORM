@@ -1,8 +1,8 @@
 <template>
   <PageWrapper
     contentFullHeight
-    title="基础组件"
-    content=" 基础组件依赖于ant-design-vue,组件库已有的基础组件,项目中不会再次进行demo展示（二次封装组件除外）"
+    title="考勤管理管理"
+    content=" "
   >
     <a-row :gutter="[20, 20]">
       <a-col :xl="10" :lg="24">
@@ -41,11 +41,11 @@
 
           <div class="my-2">
             <h3>ghost</h3>
-            <a-button ghost color="success" class="ml-2"> 幽灵成功 </a-button>
-            <a-button ghost color="warning" class="ml-2"> 幽灵警告 </a-button>
-            <a-button ghost color="error" class="ml-2"> 幽灵错误 </a-button>
-            <a-button ghost type="dashed" color="warning" class="ml-2"> 幽灵警告dashed </a-button>
-            <a-button ghost danger class="ml-2"> 幽灵危险 </a-button>
+            <a-button ghost color="success" class="ml-2"> 缺勤成功 </a-button>
+            <a-button ghost color="warning" class="ml-2"> 缺勤警告 </a-button>
+            <a-button ghost color="error" class="ml-2"> 缺勤错误 </a-button>
+            <a-button ghost type="dashed" color="warning" class="ml-2"> 缺勤警告dashed </a-button>
+            <a-button ghost danger class="ml-2"> 缺勤危险 </a-button>
           </div>
         </a-card>
       </a-col>
@@ -84,11 +84,11 @@
           </div>
 
           <div class="my-2">
-            <h3>ghost 常规幽灵按钮通常用于有色背景下</h3>
+            <h3>ghost 常规缺勤按钮通常用于有色背景下</h3>
             <div class="bg-gray-400 py-2">
-              <a-button ghost type="primary" class="ml-2"> 幽灵主要 </a-button>
-              <a-button ghost type="default" class="ml-2"> 幽灵默认 </a-button>
-              <a-button ghost type="dashed" class="ml-2"> 幽灵dashed </a-button>
+              <a-button ghost type="primary" class="ml-2"> 缺勤主要 </a-button>
+              <a-button ghost type="default" class="ml-2"> 缺勤默认 </a-button>
+              <a-button ghost type="dashed" class="ml-2"> 缺勤dashed </a-button>
               <a-button ghost type="primary" class="ml-2" disabled> 禁用 </a-button>
               <a-button ghost type="primary" class="ml-2" loading> loading </a-button>
             </div>

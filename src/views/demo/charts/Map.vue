@@ -52,7 +52,7 @@
           },
           series: [
             {
-              name: 'iphone4',
+              name: '德眼视能设备部署数量',
               type: 'map',
               map: 'china',
               label: {

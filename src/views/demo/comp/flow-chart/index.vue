@@ -1,7 +1,7 @@
 <template>
   <PageWrapper
-    title="流程图"
-    content="简单流程图示例,具体功能需要自己完善"
+    title="审批流程管理"
+    content="系统平台运用中的流程权限审批管理"
     contentFullHeight
     fixedHeight
   >

@@ -9,8 +9,8 @@ export default {
     pie: '饼图',
   },
   comp: {
-    comp: '组件',
-    basic: '基础组件',
+    comp: '日常规管理',
+    basic: '考勤管理',
     transition: '动画组件',
     countTo: '数字动画',
 
@@ -115,7 +115,7 @@ export default {
     doc: '海嘉中学(内嵌)',
     docExternal: '第五中学(外链)',
   },
-  level: { level: '多级菜单' },
+  level: { level: '卫生与消毒管理' },
   page: {
     page: '页面',
 
