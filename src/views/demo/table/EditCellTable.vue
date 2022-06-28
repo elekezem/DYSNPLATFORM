@@ -162,7 +162,7 @@
     components: { BasicTable },
     setup() {
       const [registerTable] = useTable({
-        title: '可编辑单元格示例',
+        title: '权限管理',
         api: demoListApi,
         columns: columns,
         showIndexColumn: false,

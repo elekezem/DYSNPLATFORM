@@ -1,5 +1,5 @@
 <template>
-  <PageWrapper title="拖动校验示例">
+  <PageWrapper title="设备参数校验">
     <div class="flex justify-center p-4 items-center bg-gray-700">
       <BasicDragVerify ref="el1" @success="handleSuccess" />
       <a-button type="primary" class="ml-2" @click="handleBtnClick(el1)"> 还原 </a-button>

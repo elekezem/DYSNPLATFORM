@@ -1,5 +1,5 @@
 <template>
-  <PageWrapper title="密码强度校验组件">
+  <PageWrapper title="平台信息安全校验">
     <div class="flex justify-center">
       <div class="demo-wrap p-10">
         <StrengthMeter placeholder="默认" />
